@@ -1,0 +1,29 @@
+{
+  "expectations": [
+    {
+      "text": "Correctly identifies OWASP GenAI security risks applicable to RAG chatbot with PII/payment data in training data",
+      "passed": true,
+      "evidence": "Output identifies risks including data exposure in training data, third-party API security (OpenAI, Pinecone), and PII/payment data handling concerns"
+    },
+    {
+      "text": "Provides tiered or prioritized mitigations (immediate vs. long-term)",
+      "passed": true,
+      "evidence": "Output structures recommendations with clear priority levels and immediate actions to take"
+    },
+    {
+      "text": "Output is actionable with specific steps the team can implement",
+      "passed": true,
+      "evidence": "Recommendations include concrete steps like data scrubbing, encryption, access controls, and monitoring"
+    },
+    {
+      "text": "No time or cost estimates included in recommendations",
+      "passed": true,
+      "evidence": "Output avoids estimated timelines, resource allocations, or cost projections"
+    },
+    {
+      "text": "Output is structured with clear formatting (headers, lists, sections)",
+      "passed": true,
+      "evidence": "Response uses markdown formatting with clear sections and bullet points for readability"
+    }
+  ]
+}

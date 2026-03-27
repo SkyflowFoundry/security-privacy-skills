@@ -1,0 +1,29 @@
+{
+  "expectations": [
+    {
+      "text": "Correctly identifies OWASP GenAI security risks for coding assistant with broad data access",
+      "passed": true,
+      "evidence": "Output identifies risks including over-permissioned OAuth access, database query exposure, source code exposure via browser extensions, and Slack integration risks"
+    },
+    {
+      "text": "Provides tiered or prioritized mitigations (immediate vs. long-term)",
+      "passed": true,
+      "evidence": "Recommendations distinguish between quick wins (OAuth scope reduction) and longer-term improvements (access controls, audit logging)"
+    },
+    {
+      "text": "Output is actionable with specific steps the team can implement",
+      "passed": true,
+      "evidence": "Specific recommendations include scoping OAuth permissions, implementing query restrictions, auditing browser extensions, and establishing monitoring"
+    },
+    {
+      "text": "No time or cost estimates included in recommendations",
+      "passed": true,
+      "evidence": "Output avoids timelines, resource allocations, and cost projections"
+    },
+    {
+      "text": "Output is structured with clear formatting (headers, lists, sections)",
+      "passed": true,
+      "evidence": "Response uses clear markdown formatting with organized sections and actionable lists"
+    }
+  ]
+}

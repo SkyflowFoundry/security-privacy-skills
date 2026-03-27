@@ -1,0 +1,29 @@
+{
+  "expectations": [
+    {
+      "text": "correct_risk_identification",
+      "passed": true,
+      "evidence": "Assessment correctly identifies that de-identification is INSUFFICIENT under HIPAA Safe Harbor and GDPR Article 4. Diagnosis + ZIP + date combination creates 87% re-identification risk. Five critical findings documented: (1) Insufficient De-Identification, (2) Data Governance Failure, (3) GDPR Deletion Non-Existent, (4) Shadow AI Risk, (5) Regulatory Obligations Framework. Compliance gaps mapped to HIPAA (minimum necessary, Safe Harbor, BAAs, breach notification, audit logs) and GDPR (lawful basis, Article 17, DPIA, DPA, RoPA) requirements."
+    },
+    {
+      "text": "tiered_mitigations",
+      "passed": true,
+      "evidence": "Assessment provides Tier-based recommendations across 6 governance areas (Data Classification & Lineage, Regulatory Compliance, Synthetic Data, API Security, Data Poisoning, Shadow AI). Example: Data Classification shows Tier 1 (classify PHI/PII at source), Tier 2 (build lineage tracking), Tier 3 (DSR workflow using lineage). Compliance Roadmap provides 6 phases with specific objectives and deliverables per tier."
+    },
+    {
+      "text": "actionable_output",
+      "passed": true,
+      "evidence": "Assessment includes 'Summary of Immediate Actions (Next 30 Days)' with 5 tasks: Re-identification Risk Assessment (k-anonymity/l-diversity testing), Deletion Request Intake Process, Vendor DPA Audit, Data Lineage Proof of Concept, Shadow AI Policy Draft. Compliance Roadmap phases (1-6) each include specific deliverables: Phase 1 has policy documentation and risk assessment; Phase 3 has deletion workflow documentation and testing procedures."
+    },
+    {
+      "text": "no_time_or_cost_estimates",
+      "passed": true,
+      "evidence": "Phases are described without project timeline claims ('Phase 1: Foundation & Assessment', 'Phase 2: Classification & Lineage' etc.) and no budget estimates. Regulatory facts included (GDPR 30-day deadline for Article 17, GDPR penalties up to 4% annual turnover or €20M, HIPAA penalties up to $1.5M+) are regulatory requirements, not project estimates. No statements like 'expect 6 months' or '$2M budget'."
+    },
+    {
+      "text": "structured_format",
+      "passed": true,
+      "evidence": "Assessment uses clear structure: Executive Summary, Critical Findings (5 numbered sections), Detailed Risk Assessment by Governance Area (6 subsections A-F), Regulatory Obligations Framework (tables for HIPAA/GDPR/EU AI Act), Compliance Roadmap (6 phases with objectives and deliverables), Specific Questions & Answers (Q&A section), Summary of Immediate Actions, Conclusion. Tables consistently formatted (Requirement, Current State, Gap columns). Each phase clearly separated with objectives and deliverables."
+    }
+  ]
+}

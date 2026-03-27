@@ -1,0 +1,29 @@
+{
+  "expectations": [
+    {
+      "text": "correct_risk_identification",
+      "passed": true,
+      "evidence": "Assessment correctly identifies 8 critical/high-risk scenarios including DSGAI01 (Sensitive Data Leakage), DSGAI13 (Vector Store Platform Data Security), DSGAI14 (Excessive Telemetry & Monitoring Leakage), DSGAI08 (Regulatory Non-Compliance). Risk Heat Map properly categorizes risks by severity (Critical, High, Medium). All OWASP GenAI domain risks (DSGAI01-DSGAI21) are assessed."
+    },
+    {
+      "text": "tiered_mitigations",
+      "passed": true,
+      "evidence": "Assessment provides Phase 1 (Weeks 1-2), Phase 2 (Weeks 3-6), Phase 3 (Weeks 7-10) roadmap with Tier 0/1/2 definitions. Example: DSGAI01 mitigation table shows specific T1 actions (data minimization, tokenization) and higher-tier hardening. Each risk ID includes required work and owner assignment."
+    },
+    {
+      "text": "actionable_output",
+      "passed": true,
+      "evidence": "Assessment includes 'First Steps (Do These Now)' section with 6 immediate tasks: Stop Ingesting Credit Card Data, Audit Existing Data, Rotate API Keys, Enable Audit Logging, Document Data Flow, Assign Owners. Each phase includes Success Criteria. Per-system risk assessment includes remediation owner assignment."
+    },
+    {
+      "text": "no_time_or_cost_estimates",
+      "passed": true,
+      "evidence": "Phases are described as Week ranges (Week 1-2, Week 3-6, Week 7-10) without project timeline commitments or budget allocations. No statements like 'this will cost $120K' or 'expect 6-8 weeks'. Regulatory facts are included (GDPR 30-day deadline, penalty amounts like €20M) which are regulatory facts, not project estimates."
+    },
+    {
+      "text": "structured_format",
+      "passed": true,
+      "evidence": "Assessment uses clear structure: Executive Summary, Per-System Risk Assessment (table format), Critical Findings (8 numbered sections), Remediation Roadmap (3 phases with tables), Governance & Next Steps, Additional Considerations, Risk Summary Table. Tables use consistent formatting (Risk ID, Name, Current Tier, Gap, Target Tier, Remediation Owner)."
+    }
+  ]
+}

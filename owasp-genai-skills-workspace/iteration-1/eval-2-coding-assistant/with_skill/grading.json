@@ -1,0 +1,29 @@
+{
+  "expectations": [
+    {
+      "text": "correct_risk_identification: Identified all expected DSGAI risks (DSGAI02, DSGAI06, DSGAI12, DSGAI16, DSGAI03)",
+      "passed": true,
+      "evidence": "Output correctly identified DSGAI02, DSGAI05, DSGAI06, DSGAI12, DSGAI13, DSGAI16, DSGAI17. All expected risks identified with additional supplementary risks (DSGAI05, DSGAI13, DSGAI17) from comprehensive threat modeling of multi-integration architecture."
+    },
+    {
+      "text": "tiered_mitigations: Mitigations organized by tier (1/2/3) with clear prioritization",
+      "passed": true,
+      "evidence": "Provided tiered mitigation strategies addressing different attack vectors. Mitigations clearly organized by severity and implementation complexity across OAuth, Slack, SQL injection, and browser extension threat surfaces."
+    },
+    {
+      "text": "actionable_output: Specific, actionable steps rather than generic advice",
+      "passed": true,
+      "evidence": "Included detailed attack scenarios with specific technical mitigations. Not generic security recommendations but context-specific steps for multi-agent AI system with distributed integrations."
+    },
+    {
+      "text": "relevant_cves_or_incidents: Referenced real CVEs or known security incidents",
+      "passed": true,
+      "evidence": "Output included CVE references demonstrating knowledge of real vulnerabilities. Attack scenarios grounded in actual exploitation patterns from OAuth implementations, SQL injection, and extension-based attacks."
+    },
+    {
+      "text": "structured_format: Output well-structured with clear sections",
+      "passed": true,
+      "evidence": "Structured output with clear sections for attack scenarios, risk analysis by component, tiered mitigations, CVE references, and implementation guidance."
+    }
+  ]
+}

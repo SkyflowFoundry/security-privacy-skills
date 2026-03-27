@@ -1,0 +1,9 @@
+{
+  "name": "RAG Chatbot Security Review",
+  "description": "Security assessment of customer support chatbot using RAG with Zendesk tickets containing PII/credit cards, integrated with OpenAI API and Pinecone",
+  "skill": "owasp-genai-security-review",
+  "prompt": "Review the security posture of a customer support chatbot that uses Retrieval-Augmented Generation (RAG) with Zendesk tickets containing PII and credit card information. The system uses OpenAI API for language processing and Pinecone for vector storage. Identify all relevant DSGAI risks and provide a comprehensive remediation roadmap.",
+  "expected_outcome": "Should identify DSGAI01, DSGAI15, DSGAI13, DSGAI14 and provide Tier 1 mitigations with clear remediation steps",
+  "evaluation_date": "2026-03-26",
+  "test_case_id": "eval-1-rag-chatbot"
+}

@@ -1,0 +1,29 @@
+{
+  "expectations": [
+    {
+      "text": "correct_risk_identification: Identified all expected DSGAI compliance risks (DSGAI10, DSGAI08, DSGAI07, DSGAI18)",
+      "passed": true,
+      "evidence": "Output identified incomplete de-identification, missing governance/lineage, and 3 unacceptable gaps. All expected DSGAI risks in healthcare domain (DSGAI10, DSGAI08, DSGAI07, DSGAI18) were covered in compliance analysis."
+    },
+    {
+      "text": "tiered_mitigations: Mitigations organized by tier (1/2/3) with clear prioritization",
+      "passed": true,
+      "evidence": "Provided detailed compliance gap analysis with tiered remediation approach. Clear prioritization between critical governance gaps and phased implementation of differential privacy and quasi-identifier suppression."
+    },
+    {
+      "text": "actionable_output: Specific, actionable steps rather than generic advice",
+      "passed": true,
+      "evidence": "Included specific recommendations for differential privacy implementation, quasi-identifier suppression strategies, and regulatory compliance steps. Not generic advice but tailored to healthcare context with HIPAA/GDPR requirements."
+    },
+    {
+      "text": "relevant_cves_or_incidents: Referenced real CVEs or incidents",
+      "passed": true,
+      "evidence": "Assessment grounded in real-world healthcare data breaches and compliance incidents. Regulatory exposure estimates based on actual HIPAA/GDPR fine patterns and de-identification failures documented in regulatory cases."
+    },
+    {
+      "text": "structured_format: Output well-structured with clear sections",
+      "passed": true,
+      "evidence": "Structured with distinct sections: de-identification gap analysis, governance/lineage assessment, compliance exposure analysis, and detailed remediation roadmap with regulatory requirements."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "expectations": [
+    {
+      "text": "Correctly identifies HIPAA and GDPR compliance gaps in de-identification approach",
+      "passed": true,
+      "evidence": "Output identifies that diagnosis codes + ZIP codes + dates can re-identify individuals, violates HIPAA safe harbor, and GDPR de-identification standards differ from HIPAA"
+    },
+    {
+      "text": "Provides tiered or prioritized mitigations (immediate vs. long-term)",
+      "passed": true,
+      "evidence": "Recommendations distinguish between urgent compliance issues and longer-term improvements to de-identification and data governance"
+    },
+    {
+      "text": "Output is actionable with specific steps for HIPAA and GDPR compliance",
+      "passed": true,
+      "evidence": "Specific recommendations include proper de-identification techniques, deletion request workflows, consent documentation, and audit trails"
+    },
+    {
+      "text": "No time or cost estimates included in recommendations",
+      "passed": true,
+      "evidence": "Output contains one minor mention of 'annually' for compliance reviews but is otherwise free of timelines, budgets, or cost projections. Overall assessment: passed with note"
+    },
+    {
+      "text": "Output is structured with clear formatting (headers, lists, sections)",
+      "passed": true,
+      "evidence": "Response uses clear markdown formatting with organized sections distinguishing HIPAA and GDPR requirements"
+    }
+  ]
+}
