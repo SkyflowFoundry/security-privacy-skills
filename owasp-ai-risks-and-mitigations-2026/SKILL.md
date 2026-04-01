@@ -15,6 +15,64 @@ Your GenAI systems are only as secure as their weakest data integration point. T
 
 Each risk has three mitigation tiers: **T1 (Essential)** — foundational controls every system needs; **T2 (Hardened)** — consistent enforcement and design changes; **T3 (Defense-in-Depth)** — mature, measured, adaptive controls for high-risk systems.
 
+---
+
+## Information Gathering
+
+**Before producing guidance, ask targeted questions to tailor the output.** General guidance is always acceptable when the user can't answer — but the more context you gather, the more specific and actionable the output.
+
+### Determine the user's goal first
+
+Ask: *"Are you looking for (a) quick guidance on a specific risk, (b) a full security assessment of a system, or (c) a remediation plan for gaps you've already identified?"*
+
+This one question shapes everything that follows.
+
+---
+
+### If (a) — Targeted risk lookup
+
+Ask these before pulling mitigation detail:
+
+1. **Which risk(s)?** — "Which DSGAI risk(s) are you focused on, or what problem are you trying to solve?" (Map the answer to the 21 risks if they don't know the IDs.)
+2. **System type** — "What kind of GenAI system is this — RAG pipeline, fine-tuned model, agentic system with tool access, or something else?"
+3. **Data sensitivity** — "What categories of data does it handle? (PII, PHI, financial records, trade secrets, internal-only, or public?)"
+4. **Current controls** — "Do you have any mitigations in place already, or is this greenfield?"
+
+If the user can answer all four, produce targeted T1/T2/T3 guidance for that risk in their specific context. If they can only answer some, give general guidance and call out what would change with more context.
+
+---
+
+### If (b) — Full security assessment
+
+Work through the 6-step workflow (Step 1–6 below), but gather this before starting:
+
+1. **Scope** — "How many systems are we assessing, and do you want to cover all 21 risks or focus on a specific domain (Data Protection / Agent & Pipeline / Governance)?"
+2. **System inventory** — "Can you list your GenAI systems? For each: deployment model (cloud API / self-hosted / hybrid), whether it uses agents or tools, and the data it handles."
+3. **Regulatory obligations** — "Which regulatory frameworks apply? (GDPR, HIPAA, CCPA, EU AI Act, Colorado AI Act, or others?)"
+4. **Audience** — "Is this for a technical team, an executive summary, or a compliance audit?"
+5. **Known gaps** — "Are there risks you already know are weak spots, so we can prioritize those?"
+
+If the user can't provide a full system inventory, offer to guide them through Step 1 (System Inventory) interactively before proceeding.
+
+---
+
+### If (c) — Remediation planning
+
+Ask before building a roadmap:
+
+1. **Assessment results** — "Do you have a completed risk matrix or gap list, or should we derive one from what you know?"
+2. **Target maturity** — "What tier are you targeting — T2 across the board, or T3 for specific high-risk systems?"
+3. **Constraints** — "Are there buy-vs-build preferences, team ownership boundaries, or dependencies that should shape prioritization?"
+4. **Compliance deadlines** — "Are there any compliance deadlines driving urgency? (e.g., EU AI Act Art. 10 effective August 2026)"
+
+---
+
+### General guidance fallback
+
+If the user can't or won't answer intake questions, proceed with general guidance for the most applicable risks and explicitly state: *"These recommendations are based on general best practices — with more context about your system type, data categories, and current controls, I can make this significantly more specific."*
+
+---
+
 ## Output Constraints
 
 When producing assessments, roadmaps, or remediation plans:
