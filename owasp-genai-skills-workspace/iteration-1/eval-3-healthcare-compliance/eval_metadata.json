@@ -1,9 +1,0 @@
-{
-  "name": "Healthcare Compliance and De-identification Assessment",
-  "description": "Compliance review of healthcare company using fine-tuned models on de-identified patient data with quasi-identifiers, synthetic data, and HIPAA/GDPR compliance requirements",
-  "skill": "owasp-genai-governance-compliance",
-  "prompt": "Review a healthcare company's AI governance and compliance posture. The company fine-tunes models on data they claim is de-identified, but the data still contains quasi-identifiers. They use synthetic data generation and must comply with HIPAA and GDPR. Identify compliance gaps, explain the erasure gap, recommend differential privacy approaches, and suggest quasi-identifier suppression strategies.",
-  "expected_outcome": "Should identify DSGAI10, DSGAI08, DSGAI07, DSGAI18 with explanation of erasure gaps, recommend differential privacy approaches, and provide quasi-identifier suppression recommendations",
-  "evaluation_date": "2026-03-26",
-  "test_case_id": "eval-3-healthcare-compliance"
-}

@@ -1,9 +1,0 @@
-{
-  "name": "AI Coding Assistant Security Review",
-  "description": "Security assessment of AI coding assistant with GitHub OAuth integration, Slack connectivity, natural language to SQL query generation on Postgres, and browser extension functionality",
-  "skill": "owasp-genai-agent-pipeline-security",
-  "prompt": "Analyze the security architecture of an AI coding assistant that integrates with GitHub (OAuth), Slack for notifications, converts natural language to SQL queries on a Postgres database, and includes a browser extension. Identify all DSGAI risks, provide attack scenarios, and recommend tiered mitigations with CVE references.",
-  "expected_outcome": "Should identify DSGAI02, DSGAI06, DSGAI12, DSGAI16, DSGAI03 with detailed attack scenarios, tiered mitigations, and relevant CVE references",
-  "evaluation_date": "2026-03-26",
-  "test_case_id": "eval-2-coding-assistant"
-}

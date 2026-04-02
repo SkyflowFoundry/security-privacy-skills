@@ -1,0 +1,6 @@
+owasp-genai-skills-workspace/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
