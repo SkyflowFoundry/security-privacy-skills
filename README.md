@@ -36,4 +36,4 @@ New security and privacy skills are welcome. Drop a new skill under `skills/<ski
 
 ## License
 
-[MIT](LICENSE)
+This project is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)](LICENSE), matching the license of the upstream OWASP GenAI source documents it is derived from.

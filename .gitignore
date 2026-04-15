@@ -1,5 +1,8 @@
 owasp-genai-skills-workspace/
 
+# Upstream OWASP source material (kept locally, not tracked)
+/source/
+
 # System files
 .DS_Store
 Thumbs.db
