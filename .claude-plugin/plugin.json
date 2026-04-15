@@ -1,0 +1,19 @@
+{
+  "name": "security-privacy-skills",
+  "version": "0.1.0",
+  "description": "A collection of security and privacy skills for Claude Code, covering AI risk frameworks, data protection, and governance.",
+  "author": {
+    "name": "Skyflow",
+    "url": "https://github.com/SkyflowFoundry"
+  },
+  "homepage": "https://github.com/SkyflowFoundry/security-privacy-skills",
+  "repository": "https://github.com/SkyflowFoundry/security-privacy-skills",
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "privacy",
+    "owasp",
+    "genai",
+    "compliance"
+  ]
+}
